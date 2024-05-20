@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.head{
+    width: 1440px;
+height: 517px;
+background: #014E56;
+
+}
+
+.ul1{
+    display: flex;
+    text-decoration: none ;
+    list-style: none;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+padding-left: 500px;
+margin-bottom: 100px;
+}
+
+.to{
+    display: flex;
+    padding-left: 100px;
+color: white;
+}
+
+button{
+    padding: 5px;
+}
+
+.team{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.left{
+    font-size: 64px;
+}
+
+.right{
+    padding-left: 200px;
+    
+}
+.the{
+    width: 1440px;
+height: 1002px;
+background: #004047;
+}
+
+.theh1{
+    text-align: center;
+    color: white;
+}
+
+.box{
+    width: 350px;
+height: 274.73px;
+background: #012F34;
+align-items: center;
+text-align: center;
+line-height: 35px;
+color: white;
+padding-top: 40px;
+}
+
+.bos{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+.h7{
+    font-size: 48px;
+    text-align: center;
+    color: white;
+}
+
+.bl{
+    height: 100px;
+    padding: 35px;
+    background-color: black
+    
+}
+
+.yep{
+   padding-left: 200px;
+}
+
+.ul8{
+    color: whitesmoke;
+    display: flex;
+}
+
+h1:hover{
+    color: purple;
+    background-color: green;
+}
+
+img:hover{
+    color: black;
+    background-color: aqua;
+}
+
+
+@media (max-width:300px) {
+    .head {
+        padding: 50px;
+    }
+
+    .to {
+      margin-bottom: 50px;
+    }
+
+
+}
+
