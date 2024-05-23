@@ -111,15 +111,40 @@ img:hover{
 }
 
 
-@media (max-width:300px) {
-    .head {
-        padding: 50px;
-    }
+@media only screen and (max-width: 1024px) {
+   header{
+   flex-direction: column;
+  
+   }
+   .section-three{
+    flex-direction: column;
+display: block;
+   }
+   .section-two{
+    flex-direction: column;
+display: block;
 
-    .to {
-      margin-bottom: 50px;
-    }
+   }
+   .section-one{
+    flex-direction: column;
+display: block;
+   }
+  }@media only screen and (max-width: 1024px) {
+   .head{
+   flex-direction: column;
+  
+   }
+   .client{
+    flex-direction: column;
+display: block;
+   }
+   .bos{
+    flex-direction: column;
+display: block;
 
-
-}
-
+   }
+   .to{
+    flex-direction: column;
+display: block;
+   }
+  }
